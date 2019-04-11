@@ -302,10 +302,41 @@ img {
   .home .content-section p {
     width: 475px;
   }
-  .home .content-section {
-    border: 2px solid red;
-  }
   .home .content-section .img-content {
-    border: 2px solid black;
+    margin-left: 20px;
+    width: 100%;
+  }
+  .home .inverse-content .text-content {
+    order: -1;
+  }
+  .content-destination {
+    width: 100% !important;
+  }
+  .content-destination h2 {
+    width: 100%;
+  }
+  .content-destination p {
+    width: 100%;
+  }
+  .content-pick {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .content-pick .destination {
+    width: 400px !important;
+    margin-left: 3rem;
+  }
+  .content-pick .destination .btn {
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 14pt;
+    border-radius: 15px;
+    background-color: #117a8b;
+    color: #FFFFFF;
+    width: 400px;
+    background-color: #17A2B8;
   }
 }
