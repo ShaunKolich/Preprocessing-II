@@ -6,8 +6,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
-    
     .text-content {
       width: 48%;
       padding-right: 1%;
@@ -23,9 +21,9 @@
     }
   }
 
-  .inverse-content {
+ .inverse-content {
     padding-bottom: 30px;
-    border-bottom: 2px dashed @navigation-border;
+    // border-top: 2px dashed @navigation-border;
 
     .text-content {
       padding-left: 1%;
@@ -58,4 +56,13 @@
       margin-bottom: 30px;
     }
   }
+  .middle_text{
+    div{
+      margin-top:@margin-top;
+    }
+    }
+.btn{
+  .btn(@button-bg,@main-bg);
+}
+
 }// home
